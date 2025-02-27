@@ -23,19 +23,19 @@ My research interests lie broadly in natural language processing, especially pos
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/FADS-ICL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Feature-Adaptive and Data-Scalable In-Context Learning](https://aclanthology.org/2024.acl-long.81.pdf)
+[Feature-Adaptive and Data-Scalable In-Context Learning](https://aclanthology.org/2024.acl-long.81.pdf) 
 
 **Jiahao Li**, Quan Wang, Licheng Zhang, Guoqing Jin, Zhendong Mao*
 
-[**Code**](https://github.com/jiahaozhenbang/FADS-ICL)
+
 -  Due to context length constraints, it cannot be further improved in spite of more training data, and general features directly from LLMs in ICL are not
 adaptive to the specific downstream task.
--  In this paper, we propose a feature-adaptive and data-scalable in-context learning framework (FADSICL), which can leverage task-adaptive features
+-  In this paper, we propose a feature-adaptive and data-scalable in-context learning framework (FADS-ICL), which can leverage task-adaptive features
 to promote inference on the downstream task, with the supervision of beyond-context samples.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2023 Findings</div><img src='images/MainGEC.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2023 Findings</div><img src='images/MainGEC.png.' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Grammatical Error Correction via Mixed-Grained Weighted Training](https://aclanthology.org/2023.findings-emnlp.400.pdf)
 
