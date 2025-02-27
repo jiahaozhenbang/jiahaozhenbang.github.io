@@ -21,43 +21,41 @@ My research interests lie broadly in natural language processing, especially pos
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/FADS-ICL.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[Feature-Adaptive and Data-Scalable In-Context Learning](https://aclanthology.org/2024.acl-long.81.pdf) 
+
+[Feature-Adaptive and Data-Scalable In-Context Learning](https://aclanthology.org/2024.acl-long.81.pdf) [[**Code**](https://github.com/jiahaozhenbang/FADS-ICL)]
 
 **Jiahao Li**, Quan Wang, Licheng Zhang, Guoqing Jin, Zhendong Mao*
+
+
 
 
 -  Due to context length constraints, it cannot be further improved in spite of more training data, and general features directly from LLMs in ICL are not
 adaptive to the specific downstream task.
 -  In this paper, we propose a feature-adaptive and data-scalable in-context learning framework (FADS-ICL), which can leverage task-adaptive features
 to promote inference on the downstream task, with the supervision of beyond-context samples.
-</div>
-</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2023 Findings</div><img src='images/MainGEC.png.' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+
+
 [Grammatical Error Correction via Mixed-Grained Weighted Training](https://aclanthology.org/2023.findings-emnlp.400.pdf)
 
 **Jiahao Li**, Quan Wang∗, Chiwei Zhu, Zhendong Mao, Yongdong Zhang
 
+
 -  Almost all previous works for GEC treat annotated training data equally, but inherent discrepancies in data are neglected. 
 - In this paper, we propose MainGEC, which designs token-level and sentence-level training weights based on inherent discrepancies in accuracy and potential diversity of data
 annotation, respectively, and then conducts mixed-grained weighted training to improve the training effect for GEC.
-</div>
-</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2022</div><img src='images/SCOPE.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[Improving Chinese Spelling Check by Character Pronunciation Prediction: The Effects of Adaptivity and Granularity](https://aclanthology.org/2022.emnlp-main.287/)
+
+
+[Improving Chinese Spelling Check by Character Pronunciation Prediction: The Effects of Adaptivity and Granularity](https://aclanthology.org/2022.emnlp-main.287/) [[**Code**](https://github.com/jiahaozhenbang/SCOPE)]
 
 **Jiahao Li**, Quan Wang*, Zhendong Mao, Junbo Guo, Yanyan Yang, Yongdong Zhang
 
-[**Code**](https://github.com/jiahaozhenbang/SCOPE)   
+
+
 - As most of these spelling errors are caused by phonetic similarity, effectively modeling the pronunciation of Chinese characters is a key factor for Chinese Spelling Check (CSC).
 -  In this paper, we consider introducing an auxiliary task of Chinese pronunciation prediction (CPP) to improve CSC, and, for the first time, systematically discuss the adaptivity and granularity of this auxiliary task.
-</div>
-</div>
+
 
 # 🎖 Honors and Awards
 - *2020* Language and Intelligent Technology Competition: The 4th Place of Machine Reading Comprehension Task.
